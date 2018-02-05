@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "84136505591",
+    "firebase_url": "https://legumedelaradu.firebaseio.com",
+    "project_id": "legumedelaradu",
+    "storage_bucket": "legumedelaradu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84136505591:android:ad2685023a2c4cc0",
+        "android_client_info": {
+          "package_name": "com.nullniche.legumedelaradu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84136505591-meuem538ei51fo08iqr153iuq6oua9g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nullniche.legumedelaradu",
+            "certificate_hash": "0fb3a2b60f25afd0609f5effee5cf94278ad8796"
+          }
+        },
+        {
+          "client_id": "84136505591-5f94vodkq9cnn78i48tptsq2emdnfulh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSJTW4UPvho11kAAFLYsrGu3GDnUbx0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84136505591-5f94vodkq9cnn78i48tptsq2emdnfulh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
