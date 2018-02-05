@@ -7,6 +7,9 @@ import android.view.View;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,8 +23,17 @@ public class MainActivity extends AppCompatActivity {
         //send something to db
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
+        DatabaseReference rootRef = database.getReference();
 
-        myRef.setValue("Hello, World!");
+        rootRef.child("_orders").setValue(new VegetableOrder("Ali","Burger",2));
+        //Map<String,VegetableOrder> vegetableOrders = new HashMap<>();
+        //vegetableOrders.put("first order",new VegetableOrder("Tudor","Carrot",2));
+        //vegetableOrders.put("second order",new VegetableOrder("Ali","Burger",2));
+
+        //DatabaseReference vegMenuRef = database.getReference("_vegetableMenu");
+        //DatabaseReference orders = database.getReference("_orders");
+
+        //VegetableMenu vegetableMenu = new VegetableMenu();
+
     }
 }
