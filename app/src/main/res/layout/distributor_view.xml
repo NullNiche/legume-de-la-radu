@@ -6,7 +6,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="THIS IS THE DISTRIBUTOR VIEW"
+        android:text="@string/load_distributor_view"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadLoginView"
+        android:text="@string/load_login_view"/>
 </android.support.constraint.ConstraintLayout>

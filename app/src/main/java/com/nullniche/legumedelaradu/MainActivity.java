@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.distributor_view);
     }
 
+    public void loadLoginView(View view){
+        setContentView(R.layout.activity_main);
+    }
+
 
     public void SendClassToDB(View view){
         //send something to db

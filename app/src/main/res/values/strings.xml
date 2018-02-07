@@ -2,4 +2,5 @@
     <string name="app_name">Legume De La Radu</string>
     <string name="db_test_button_label">DB TEST</string>
     <string name="load_distributor_view">LOAD DISTRIBUTOR VIEW</string>
+    <string name="load_login_view">LOAD LOGIN VIEW</string>
 </resources>
