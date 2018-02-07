@@ -6,9 +6,9 @@ package com.nullniche.legumedelaradu;
 
 public class VegetableOrder {
 
-    private String clientName;
-    private String vegetableName;
-    private float quantity;
+    public String clientName;
+    public String vegetableName;
+    public float quantity;
 
     public VegetableOrder(){
 

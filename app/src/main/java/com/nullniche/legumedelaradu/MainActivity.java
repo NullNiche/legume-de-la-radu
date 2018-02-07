@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void loadDistributorView(View view){
+        setContentView(R.layout.distributor_view);
+    }
+
 
     public void SendClassToDB(View view){
         //send something to db
@@ -35,5 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
         //VegetableMenu vegetableMenu = new VegetableMenu();
 
+
+        //BAIE: CALD(453.872) RECE(289.435)
+        //BUC: CALD(133.275) RECE(124.252)
     }
 }
